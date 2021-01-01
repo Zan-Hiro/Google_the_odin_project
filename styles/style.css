@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#search {
+  width: 480px;
+  height: 50px;
+  border: solid 1px;
+  border-radius: 24px;
+  opacity: 0.2;
+}
+
+ .icon{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 440px;
+  margin: 15px 5px;
+  padding: 0 10px;
+} 
+
+#i-search {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  }
+
+#i-microphone {
+  width: 24px;
+  height: 24px;
+  color: #4385F4;
+  opacity: 1.2;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-search,  #btn-lucky {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  height: 40px;
+  padding: 0,16px;
+  margin: 30px 0 0 15px;
+  background-color: #F7F7F7;
+  opacity: 0.9;
+  border: 1px;
+}
+
+li {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15px 0 5px;
+}
+li:hover {
+  cursor: pointer;
+}
+
+.pixel {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#icon{
+  border-radius: 50%;
+}
+
+ footer {
+  position: absolute;
+  display: block;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+  background-color: #F2F2F2;
+  width: 100%;
+}
+.footer1, .footer2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  border-style: outset 1px black;
+  border: none;
+  height: 50px;
+}
+
+.footerleft {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.footerright {
+  padding: 0, 50px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
